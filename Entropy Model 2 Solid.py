@@ -154,6 +154,7 @@ scene.append_to_caption("    ")
 scene.append_to_caption("Total number of quanta of energy = ")
 quantaMenu = menu(bind = changeQuanta, choices=quantaChoices)
 scene.append_to_caption("\n\n\n\n")
+scene.append_to_caption("<img src='introduction.png' />")
 
 def recalculate():
     global box1
